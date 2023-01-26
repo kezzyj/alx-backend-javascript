@@ -1,4 +1,5 @@
 export default function createIteratorObject(report) {
-  const iter = report[Symbol.iterator]();
-  iter.next();
+  for (const department in report) {
+    if (department) console.log(report[department]);
+  }
 }
