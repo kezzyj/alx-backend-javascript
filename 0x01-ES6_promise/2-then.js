@@ -20,4 +20,5 @@ export default function handleResponseFromAPI(promise) {
       return new Error();
     });
 }
-new Promise((resolve, reject)=>{});
+/* eslint-disable no-new */
+new Promise((resolve, reject) => {});
