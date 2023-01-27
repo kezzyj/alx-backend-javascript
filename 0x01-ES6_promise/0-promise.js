@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-const getResponseFromAPI = new Promise((resolve, reject) => {
+function getResponseFromAPI(){
+  return new Promise((resolve, reject) => {
   let data;
   setTimeout(() => {
     data = 'Some payload';
@@ -10,3 +11,4 @@ const getResponseFromAPI = new Promise((resolve, reject) => {
     }
   });
 });
+}
