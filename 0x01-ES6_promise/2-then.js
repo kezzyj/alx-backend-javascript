@@ -3,8 +3,6 @@ export default function handleResponseFromAPI(promise) {
   promise
 
     .then((response) => {
-      console.log('Got a response from the API');
-
       return {
 
         status: 200,
@@ -15,8 +13,6 @@ export default function handleResponseFromAPI(promise) {
     })
 
     .catch((error) => {
-      console.log('Got a response from the API');
-
       return new Error();
     })
     .finally(() => console.log('Got a response from the API'));
