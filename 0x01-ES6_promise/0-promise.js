@@ -9,6 +9,6 @@ function getResponseFromAPI() {
       } else {
         reject();
       }
-    });
+    }, 0);
   });
 }
