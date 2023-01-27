@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 export default function handleResponseFromAPI(promise) {
-  promise
-
+  return promise
     .then((response) => {
       return {
 
