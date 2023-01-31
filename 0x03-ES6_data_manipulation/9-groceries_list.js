@@ -1,5 +1,4 @@
 const groceriesList = () => {
-
   const res = new Map();
 
   const objetos = {
@@ -17,15 +16,10 @@ const groceriesList = () => {
   };
 
   for (const key of Object.keys(objetos)) {
-
     res.set(key, objetos[key]);
-
   }
 
   return res;
-
 };
-
-
 
 export default groceriesList;
